@@ -166,14 +166,14 @@ input {
   background: linear-gradient(135deg, #202020 0%,#353535 50%,#0a0a0a 51%,#070707 100%);
   color: #fcfcfc;
 }
-#list > ol{
+
+#list > ol > li{
   border: .5px solid rgb(189, 187, 187); /* Add a thin border to each list item */
   margin-top: -1px; /* Prevent double borders */
   background-color: linear-gradient(135deg, #fdfdfd 0%,#0a0a0a 50%,#030303 51%,#ffffff 100%);
   padding-bottom: .3em;
   font-size: 13px;
 }
-
 
 #submit{
   margin-top: 0.581em; /* 1.182em / 2 */
