@@ -59,7 +59,6 @@ fieldset{
 #content {
   font-family: 'Raleway', sans-serif;
   /* Center */
-  margin: 10 auto;
   text-align: center;
   padding: 2em;
   background-color: #080808;
@@ -98,20 +97,6 @@ p {
   background: linear-gradient(135deg, #fdfdfd 0%,#0a0a0a 50%,#030303 51%,#ffffff 100%);
   color: #fcfcfc;
   border-radius: 30%;
-}
-
-ul {
-  list-style-type: none; /* Remove bullets */
-  padding-bottom: 1em;
-  margin: 1em;; /* Remove margins */
-}
-
-ul ol {
-  border: .5px solid rgb(189, 187, 187); /* Add a thin border to each list item */
-  margin-top: -1px; /* Prevent double borders */
-  background-color: linear-gradient(135deg, #fdfdfd 0%,#0a0a0a 50%,#030303 51%,#ffffff 100%);
-  padding-bottom: .3em;
-  font-size: 13px;
 }
 
 
@@ -170,7 +155,6 @@ input {
 #list > ol > li{
   border: .5px solid rgb(189, 187, 187); /* Add a thin border to each list item */
   margin-top: -1px; /* Prevent double borders */
-  background-color: linear-gradient(135deg, #fdfdfd 0%,#0a0a0a 50%,#030303 51%,#ffffff 100%);
   padding-bottom: .3em;
   font-size: 13px;
 }
