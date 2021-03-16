@@ -114,19 +114,6 @@ ul ol {
   font-size: 13px;
 }
 
-div {
-  list-style-type: none; /* Remove bullets */
-  padding-bottom: 1em;
-  margin: 1em;; /* Remove margins */
-}
-
-div ol {
-  border: .5px solid rgb(189, 187, 187); /* Add a thin border to each list item */
-  margin-top: -1px; /* Prevent double borders */
-  background-color: linear-gradient(135deg, #fdfdfd 0%,#0a0a0a 50%,#030303 51%,#ffffff 100%);
-  padding-bottom: .3em;
-  font-size: 13px;
-}
 
 
 li {
@@ -168,6 +155,23 @@ input {
   width: 50%;
   height: 2ch;
   
+}
+
+
+#list{
+  font-family: 'Merriweather', serif;
+  font-size: 14px;
+  line-height: 2.6;
+  padding: 1em;
+  background: linear-gradient(135deg, #202020 0%,#353535 50%,#0a0a0a 51%,#070707 100%);
+  color: #fcfcfc;
+}
+#list > ol{
+  border: .5px solid rgb(189, 187, 187); /* Add a thin border to each list item */
+  margin-top: -1px; /* Prevent double borders */
+  background-color: linear-gradient(135deg, #fdfdfd 0%,#0a0a0a 50%,#030303 51%,#ffffff 100%);
+  padding-bottom: .3em;
+  font-size: 13px;
 }
 
 
