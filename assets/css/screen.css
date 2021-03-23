@@ -15,7 +15,7 @@
 }
 
 html {
-  font-family: 'Merriweather', serif, 'Akaya Kanadaka', cursive, 'Raleway', sans-serif;
+  font-family: 'Merriweather', serif, 'Akaya Kanadaka', 'Raleway', sans-serif;
   font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
@@ -90,7 +90,7 @@ h3 {
 }
 
 p {
-  font-family: 'Akaya Kanadaka', cursive;
+  font-family: 'Akaya Kanadaka';
   font-size: 0.825em; /* 0.9625em + 0.6875em/ 2 */
   margin-bottom: 1.5em;
   margin-top: 1em;
@@ -110,7 +110,7 @@ li {
 }
 
 label{
-  font-family: 'Akaya Kanadaka', cursive;
+  font-family: 'Akaya Kanadaka';
   font-size: 0.825em; /* 0.9625em + 0.6875em/ 2 */
   color: #0a0a0a;
   border-radius: 30%;
@@ -177,7 +177,7 @@ input {
   padding-bottom: 0.2em;
 }
 #footer label{
-  font-family: 'Akaya Kanadaka', cursive;
+  font-family: 'Akaya Kanadaka';
   font-size: 0.825em; /* 0.9625em + 0.6875em/ 2 */
   color: #0a0a0a;
   border-radius: 20%;
